@@ -25,3 +25,11 @@ port = 3000;
 app.listen(port,() => {
     console.log('Server listening on the port ::'+ port);
 });
+
+app.get( async function (req, res) {
+    console.log("funcio feta");
+
+
+
+
+}
